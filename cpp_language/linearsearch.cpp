@@ -13,6 +13,7 @@ int linearsearch(int arr[],int n, int key){
 
 int main(){
     int n;
+    cout <<"Enter size of array" <<endl;
     cin >> n;
     int arr[n];
     for(int i=0;i<n;i++){
@@ -20,6 +21,7 @@ int main(){
 
     }
     int key;
+    cout <<"Enter element to search" <<endl;
     cin >> key;
     cout << linearsearch(arr,n,key) <<endl;
     return 0;
